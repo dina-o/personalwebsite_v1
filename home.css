@@ -6,6 +6,60 @@ body {
     overflow-x: hidden;
   }
 
+  ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left: 60%;
+    padding-top: 3%;
+    line-height: 2;
+  }
+
+  li {
+    font-size:25px;
+    list-style-type:none; 
+    padding:0 15px;
+    font-family: Canela-Thin;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .link {
+    position: relative;
+    transition: -webkit-clip-path 275ms ease;
+    transition: clip-path 275ms ease;
+    transition: clip-path 275ms ease, -webkit-clip-path 275ms ease;
+  }
+  .link:hover span::before, .link:focus span::before {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .link span {
+    position: relative;
+    display: inline-block;
+    color: black;
+  }
+  .link span::before {
+    position: absolute;
+    content: attr(data-content);
+    text-decoration: underline;
+    -webkit-clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+            clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+    transition: -webkit-clip-path 275ms ease;
+    transition: clip-path 275ms ease;
+    transition: clip-path 275ms ease, -webkit-clip-path 275ms ease;
+    color: rgb(224, 109, 80);
+  }
+  
+  span.wavy::before {
+    -webkit-text-decoration-style: wavy;
+            text-decoration-style: wavy;
+  }
+
   main {
     padding: 2em;
     height: 120vh;
