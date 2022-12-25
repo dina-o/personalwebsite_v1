@@ -70,12 +70,157 @@ body {
     margin-top: -7%;
   }
 
+  .desc {
+    font-size: 35px;
+    font-family: Canela;
+    margin-top: 15%;
+    margin-left: 20%;
+    padding-right: 5%;
+  }
+
   .wrapper {
     display: flex;
     margin-top: -50%;
     position: absolute;
     margin-left: 15%;
     height: 100px;
+  }
+
+  .name {
+    font-size: 60px;
+    font-family: Canela;
+    margin-left: -30%;
+    animation: spin_greeting 22s infinite;
+  }
+
+  .words {
+    overflow: hidden;
+    margin-left: 10%;
+  }
+
+  .span {
+    display:block;
+    font-size: 60px;
+    font-family: Canela;
+    animation: spin_words 22s infinite;
+    height: 90%;
+  }
+
+  @keyframes spin_greeting{
+    2%{
+      transform: translateX(0%);
+    }
+    12%{
+      transform: translateX(19%);
+    }
+    20%{
+        transform: translateX(35%);
+    }
+    29%{
+        transform: translateX(20%); 
+    }
+    39%{
+        transform: translateX(15%);
+    }
+    47%{
+      transform: translateX(55%);
+    }
+    55%{
+        transform: translateX(20%);
+    }
+    63%{
+        transform: translateX(41%);
+    }
+    71%{
+      transform: translateX(16%);
+    }
+    79%{
+      transform: translateX(20%);
+    }
+    87%{
+      transform: translateX(13%);
+    }
+    95%{
+      transform: translateX(57%);
+    }
+    96%{
+      transform: translateX(57%);
+    }
+    100%{
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes spin_words{
+  2%{
+      transform: translateY(10%);
+  }
+  7%{
+    transform: translateY(-112%);
+  }
+  12%{
+      transform: translateY(-100%);
+  }
+  15%{
+      transform: translateY(-212%);
+  }
+  20%{
+      transform: translateY(-200%);
+  }
+  24%{
+      transform: translateY(-312%);
+  }
+  29%{
+      transform: translateY(-300%);
+  }
+  34%{
+      transform: translateY(-412%);
+  }
+  39%{
+      transform: translateY(-400%);
+  }
+  42%{
+    transform: translateY(-512%);
+  }
+  47%{
+      transform: translateY(-500%);
+  }
+  50%{
+      transform: translateY(-612%);
+  }
+  55%{
+      transform: translateY(-600%);
+  }
+  58%{
+      transform: translateY(-712%);
+  }
+  63%{
+    transform: translateY(-700%);
+  }
+  66%{
+    transform: translateY(-812%);
+  }
+  71%{
+    transform: translateY(-800%);
+  }
+  74%{
+    transform: translateY(-912%);
+  }
+  79%{
+    transform: translateY(-900%);
+  }
+  82%{
+    transform: translateY(-1012%);
+  }
+  87%{
+    transform: translateY(-1000%);
+  }
+  90%{
+    transform: translateY(-1112%);
+  }
+  93%{
+    transform: translateY(-1100%);
+  }
   }
   
   #base-container {
