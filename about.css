@@ -89,7 +89,19 @@ body {
     font-family: Canela;
     text-align: center;
     margin-top: -8%;
-    
+  }
+
+  .connect {
+    display: flex;
+    float: right;
+    margin-top: 2%;
+    padding-right: 5%;
+    }
+
+  .connect img {
+    width: 3rem;
+    opacity: 0.8;
+    padding-right: 40%;
   }
 
   #base-container {
