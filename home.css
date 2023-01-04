@@ -96,7 +96,7 @@ body {
 
   .wrapper {
     display: flex;
-    margin-top: -50%;
+    margin-top: -60%;
     position: absolute;
     margin-left: 15%;
     height: 100px;
@@ -238,7 +238,7 @@ body {
     transform: translateY(-1100%);
   }
   }
-
+  
   .marquee__wrapper {
     display: flex;
     align-items: center;
@@ -248,18 +248,19 @@ body {
     --duration: 30s;
     --gap: var(--space);
     background-color: rgba(73, 31, 237, 0.266);
-    filter: blur(0.5px);
     width: calc(120vw - 16rem);
     display: flex;
     overflow: hidden;
     margin-left: -5%;
+    margin-top: 10%;
+    --space: 5rem;
   }
   
   .marquee__group {
     flex-shrink: 0;
     display: flex;
     color: #fff;
-    font-size: 5rem;
+    font-size: 3.5rem;
     text-transform: uppercase;
     align-items: center;
     justify-content: space-around;
@@ -277,11 +278,11 @@ body {
   
   @keyframes scroll {
     0% {
-      transform: translateX(50%);
+      transform: translateX(60%);
     }
   
     100% {
-      transform: translateX(calc(-87% - var(--gap)));
+      transform: translateX(calc(-86% - var(--gap)));
     }
   }
   
