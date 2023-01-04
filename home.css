@@ -62,7 +62,7 @@ body {
 
   main {
     padding: 2em;
-    height: 140vh;
+    height: 200vh;
     z-index: -2;
     font-family: Canela;
   }
@@ -74,36 +74,39 @@ body {
     font-size: 35px;
     font-family: Canela;
     margin-top: 15%;
-    margin-left: 20%;
+    margin-left: 10%;
     padding-right: 5%;
   }
 
   .secondrow {
-    font-size: 25px;
+    font-size: 40px;
     font-family: Canela-Med;
     margin-top: 8%;
-    margin-left: 10%;
+    margin-left: 6%;
     padding-right: 5%;
   }
 
-  .thirdrow {
-    font-size: 25px;
-    font-family: Canela-Med;
-    margin-top: 2%;
+  .thirdrow li {
+    font-size: 30px;
     margin-left: 10%;
-    padding-right: 5%;
+  }
+
+  .chat-line {
+    margin-top: 3%;
+    font-size: 40px;
+
   }
 
   .wrapper {
     display: flex;
-    margin-top: -60%;
+    margin-top: -85%;
     position: absolute;
     margin-left: 15%;
     height: 100px;
   }
 
   .name {
-    font-size: 60px;
+    font-size: 70px;
     font-family: Canela;
     margin-left: -30%;
     animation: spin_greeting 22s infinite;
@@ -116,10 +119,10 @@ body {
 
   .span {
     display:block;
-    font-size: 60px;
+    font-size: 70px;
     font-family: Canela;
     animation: spin_words 22s infinite;
-    height: 90%;
+    height: 100%;
   }
 
   @keyframes spin_greeting{
@@ -344,6 +347,6 @@ body {
 
 @font-face {
   font-family: 'Canela-Med';
-  src: url("CanelaFont/Canela-Medium-Trial.otf") format("opentype");
-  font-weight: 100;
+  src: url("CanelaFont/Canela-Regular-Trial.otf") format("opentype");
+  font-weight: 50;
 }
