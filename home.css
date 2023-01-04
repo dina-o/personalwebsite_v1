@@ -62,7 +62,7 @@ body {
 
   main {
     padding: 2em;
-    height: 120vh;
+    height: 140vh;
     z-index: -2;
     font-family: Canela;
   }
@@ -75,6 +75,22 @@ body {
     font-family: Canela;
     margin-top: 15%;
     margin-left: 20%;
+    padding-right: 5%;
+  }
+
+  .secondrow {
+    font-size: 25px;
+    font-family: Canela-Med;
+    margin-top: 8%;
+    margin-left: 10%;
+    padding-right: 5%;
+  }
+
+  .thirdrow {
+    font-size: 25px;
+    font-family: Canela-Med;
+    margin-top: 2%;
+    margin-left: 10%;
     padding-right: 5%;
   }
 
@@ -221,6 +237,52 @@ body {
   93%{
     transform: translateY(-1100%);
   }
+  }
+
+  .marquee__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .marquee {
+    --duration: 30s;
+    --gap: var(--space);
+    background-color: rgba(73, 31, 237, 0.266);
+    filter: blur(0.5px);
+    width: calc(120vw - 16rem);
+    display: flex;
+    overflow: hidden;
+    margin-left: -5%;
+  }
+  
+  .marquee__group {
+    flex-shrink: 0;
+    display: flex;
+    color: #fff;
+    font-size: 5rem;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 100%;
+    animation: scroll var(--duration) linear infinite;
+  }
+  
+  .marquee__group p {
+    margin: 0.2px 0;
+  }
+  
+  .marquee--borders {
+    padding-block: 0;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(50%);
+    }
+  
+    100% {
+      transform: translateX(calc(-87% - var(--gap)));
+    }
   }
   
   #base-container {
