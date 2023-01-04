@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* overflow: hidden; */
+      background: linear-gradient(
+        to right,
+        rgb(238, 216, 208) 0%,
+        rgb(241, 236, 234) 50%,
+        rgb(191, 201, 236) 100%
+      );
+  }
+
+  ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left: 60%;
+    padding-top: 3%;
+    line-height: 2;
+  }
+
+  li {
+    font-size:25px;
+    list-style-type:none; 
+    padding:0 15px;
+    font-family: Canela-Thin;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .link {
+    position: relative;
+    transition: -webkit-clip-path 275ms ease;
+    transition: clip-path 275ms ease;
+    transition: clip-path 275ms ease, -webkit-clip-path 275ms ease;
+  }
+  .link:hover span::before, .link:focus span::before {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .link span {
+    position: relative;
+    display: inline-block;
+    color: black;
+  }
+  .link span::before {
+    position: absolute;
+    content: attr(data-content);
+    text-decoration: underline;
+    -webkit-clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+            clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+    transition: -webkit-clip-path 275ms ease;
+    transition: clip-path 275ms ease;
+    transition: clip-path 275ms ease, -webkit-clip-path 275ms ease;
+    color: rgb(224, 109, 80);
+  }
+  
+  span.wavy::before {
+    -webkit-text-decoration-style: wavy;
+            text-decoration-style: wavy;
+  }
+
+  main {
+    padding: 2em;
+    height: 100vh;
+    z-index: -2;
+    font-family: Canela;
+  }
+  main h2 {
+    margin-top: -7%;
+  }
+
+  .logo-style {
+    color: black
+  }
+
+  .logo-style:hover{
+    text-decoration: none;
+    color: black
+  }
+
+  .title {
+    font-size: 70px;
+    font-family: Canela;
+    text-align: center;
+    margin-top: -8%;
+    
+  }
+
+  #base-container {
+    position: relative;
+    font: 24px sans-serif;
+    overflow: hidden;
+  }
+
+  #blurry-background {
+    position: absolute;
+    width: 50%;
+    top: 20%;
+    left: 20%;
+    z-index: -1;
+    filter: blur(6em);
+    display: none;
+  }
+  
+  .circle {
+    position: absolute;
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    left: calc(60% - 5em);
+    top: calc(50% - 5em);
+  }
+  
+  .red {
+    background-color: rgb(204, 84, 40);
+    animation: redOrbit 25s linear infinite;
+  }
+  
+  .blue {
+    background-color: blue;
+    animation: blueOrbit 25s linear infinite;
+  }
+  
+  @keyframes redOrbit {
+      from { transform: rotate(0deg) translateX(150%); }
+      to { transform: rotate(360deg) translateX(150%); }
+  }
+  
+  @keyframes blueOrbit {
+      from { transform: rotate(0deg) translateX(-150%); }
+      to { transform: rotate(360deg) translateX(-150%); }
+  }
+
+  @font-face {
+    font-family: 'Canela';
+    src: url("CanelaFont/Canela-ThinItalic-Trial.otf") format("opentype");
+    font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Canela-Thin';
+  src: url("CanelaFont/Canela-Thin-Trial.otf") format("opentype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Canela-Med';
+  src: url("CanelaFont/Canela-Regular-Trial.otf") format("opentype");
+  font-weight: 50;
+}

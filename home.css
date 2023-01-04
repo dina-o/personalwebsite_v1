@@ -70,6 +70,15 @@ body {
     margin-top: -7%;
   }
 
+  .logo-style {
+    color: black
+  }
+
+  .logo-style:hover{
+    text-decoration: none;
+    color: black
+  }
+
   .desc {
     font-size: 35px;
     font-family: Canela;
@@ -285,7 +294,7 @@ body {
     }
   
     100% {
-      transform: translateX(calc(-86% - var(--gap)));
+      transform: translateX(calc(-88% - var(--gap)));
     }
   }
   
