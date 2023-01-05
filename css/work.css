@@ -95,50 +95,6 @@ body {
     transform: rotate(20deg);
   }
 
-  .bottle {
-    background: #4c0909;
-    border: 0.2rem solid #4c0909;
-    height: 27rem;
-    width: 13rem;
-    outline: 0; 
-    overflow: hidden;
-    margin-top: 5%;
-    margin-left: 10%;
-    border-radius: 80px 80px 30px 30px;
-    position: relative;
-  }
-
-  .bottle::before {
-    content: "secret sauce";
-    color:  rgb(238, 216, 208);
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .bottle::after {
-    content: "";
-    position: absolute;
-    bottom: -5%;
-    left: -5%;
-    height: 150%;
-    width: 200%;
-    background-color:  rgb(238, 216, 208);
-    border-radius: 35%;
-    animation: spin 8s ease-out infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      transform: translateY(0) rotate(0deg);
-    }
-    60% {
-        transform: translateY(-70%) rotate(300deg);
-    }
-  }
-
   #base-container {
     position: relative;
     font: 24px sans-serif;
