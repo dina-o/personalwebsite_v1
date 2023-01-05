@@ -318,18 +318,18 @@ body {
 
   @font-face {
     font-family: 'Canela';
-    src: url("CanelaFont/Canela-ThinItalic-Trial.otf") format("opentype");
+    src: url("../CanelaFont/Canela-ThinItalic-Trial.otf") format("opentype");
     font-weight: 100;
 }
 
 @font-face {
   font-family: 'Canela-Thin';
-  src: url("CanelaFont/Canela-Thin-Trial.otf") format("opentype");
+  src: url("../CanelaFont/Canela-Thin-Trial.otf") format("opentype");
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'Canela-Med';
-  src: url("CanelaFont/Canela-Regular-Trial.otf") format("opentype");
+  src: url("../CanelaFont/Canela-Regular-Trial.otf") format("opentype");
   font-weight: 50;
 }
