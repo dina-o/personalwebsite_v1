@@ -108,6 +108,37 @@ body {
     position: relative;
   }
 
+  .bottle::before {
+    content: "secret sauce";
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bottle::after {
+    content: "";
+    position: absolute;
+    bottom: -5%;
+    left: -5%;
+    height: 150%;
+    width: 200%;
+    background-color: #fffffff0;
+    border-radius: 35%;
+    animation: spin 8s ease-out infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    60% {
+        transform: translateY(-70%) rotate(300deg);
+    }
+  }
+
   #base-container {
     position: relative;
     font: 24px sans-serif;
