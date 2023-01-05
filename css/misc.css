@@ -67,7 +67,7 @@ body {
 
   main {
     padding: 2em;
-    height: 200vh;
+    height: 250vh;
     z-index: -2;
     font-family: Canela;
   }
@@ -92,7 +92,20 @@ body {
   }
 
   .title-img{
-    transform: rotate(10deg);
+    transform: rotate(20deg);
+  }
+
+  .bottle {
+    background: #4c0909;
+    border: 0.2rem solid #4c0909;
+    height: 27rem;
+    width: 13rem;
+    outline: 0; 
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 80px 80px 30px 30px;
+    position: relative;
   }
 
   #base-container {
