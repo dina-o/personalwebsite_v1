@@ -273,6 +273,14 @@ body {
     margin-top: 8%;
   }
 
+  .right-btn a:hover {
+    text-decoration: none;
+    color: #000;
+  }
+  .right-btn a {
+    color: #000;
+  }
+
   #base-container {
     position: relative;
     font: 24px sans-serif;
