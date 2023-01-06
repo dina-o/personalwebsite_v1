@@ -67,7 +67,7 @@ body {
 
   main {
     padding: 2em;
-    height: 250vh;
+    height: 220vh;
     z-index: -2;
     font-family: Canela;
   }
@@ -88,11 +88,38 @@ body {
     font-size: 70px;
     font-family: Canela;
     text-align: center;
-    margin-top: -8%;
+    margin-top: -5%;
+    margin-left:-10%;
   }
 
   .title-img{
     transform: rotate(-20deg);
+  }
+
+  .work-group {
+    margin-left: 10%; 
+    padding-right: 5%;
+    margin-top: 5%;
+  }
+
+  .city-outline {
+    margin-top: 10%;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+  }
+  @keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20%); }
+  }
+
+
+  .position {
+    font-family: Canela-Thin;
+  }
+
+  .position:hover {
+    font-family: Canela;
+    color:rgb(224, 109, 80);
   }
 
   #base-container {
