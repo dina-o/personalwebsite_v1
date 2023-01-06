@@ -112,7 +112,6 @@ body {
     100% { transform: translateY(-20%); }
   }
 
-
   .position {
     font-family: Canela-Thin;
   }
@@ -121,6 +120,16 @@ body {
     font-family: Canela;
     color:rgb(224, 109, 80);
   }
+
+  .reveal{
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  
+  .reveal.active{
+    opacity: 2;
+  }
+
 
   #base-container {
     position: relative;

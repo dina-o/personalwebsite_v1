@@ -131,6 +131,36 @@ body {
     animation: spin 8s ease-out infinite;
   }
 
+  .reveal{
+    opacity: 0;
+    transition: 3s all ease;
+  }
+  .revealquote2{
+    opacity: 0;
+    transition: 3s all ease;
+  }
+  .revealquote3{
+    opacity: 0;
+    transition: 3s all ease;
+  }
+  .revealHeader{
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    opacity: 2;
+  }
+  .revealHeader.active{
+    opacity: 2;
+  }
+  .revealquote2.active{
+    opacity: 2;
+  }
+  .revealquote3.active{
+    opacity: 2;
+  }
+
   @keyframes spin {
     0% {
       transform: translateY(0) rotate(0deg);
