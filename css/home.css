@@ -76,8 +76,9 @@ body {
 
   .logo-style:hover{
     text-decoration: none;
-    color: black
-  }
+    color: rgb(224, 109, 80);
+    font-family: Canela-Med;
+    }
 
   .desc {
     font-size: 35px;
@@ -98,12 +99,12 @@ body {
   .thirdrow li {
     font-size: 30px;
     margin-left: 10%;
+    margin-top: 2%;
   }
 
   .chat-line {
     margin-top: 3%;
     font-size: 40px;
-
   }
 
   .wrapper {

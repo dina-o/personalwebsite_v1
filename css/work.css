@@ -81,8 +81,9 @@ body {
 
   .logo-style:hover{
     text-decoration: none;
-    color: black
-  }
+    color: rgb(224, 109, 80);
+    font-family: Canela-Med;
+    }
 
   .title {
     font-size: 70px;

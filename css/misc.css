@@ -81,8 +81,9 @@ body {
 
   .logo-style:hover{
     text-decoration: none;
-    color: black
-  }
+    color: rgb(224, 109, 80);
+    font-family: Canela-Med;
+    }
 
   .title {
     font-size: 70px;
@@ -111,6 +112,7 @@ body {
 
   .bottle::before {
     content: "secret sauce";
+    font-family: Canela-Med;
     color:  rgb(238, 216, 208);
     height: 100%;
     width: 100%;
@@ -168,6 +170,15 @@ body {
     60% {
         transform: translateY(-70%) rotate(300deg);
     }
+  }
+
+  .list-points {
+    display: inline-block; 
+    text-align: left; 
+  }
+
+  .list-points li {
+    margin-top: 3%;
   }
 
   #base-container {
