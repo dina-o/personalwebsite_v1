@@ -67,7 +67,7 @@ body {
 
   main {
     padding: 2em;
-    height: 220vh;
+    height: 220%;
     z-index: -2;
     font-family: Canela;
   }
@@ -89,7 +89,7 @@ body {
     font-size: 70px;
     font-family: Canela;
     text-align: center;
-    margin-top: -5%;
+    margin-top: 0;
     margin-left:-10%;
   }
 

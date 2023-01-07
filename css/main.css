@@ -1,5 +1,6 @@
 .page-transition {
-    animation: transitionIn 1.5s
+    animation: transitionIn 1.5s;
+    padding-bottom: 10%;
 }
 
 @keyframes transitionIn {

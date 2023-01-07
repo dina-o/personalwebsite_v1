@@ -62,7 +62,7 @@ body {
 
   main {
     padding: 2em;
-    height: 210vh;
+    height: 200%;
     z-index: -2;
     font-family: Canela;
   }
@@ -83,7 +83,7 @@ body {
   .desc {
     font-size: 35px;
     font-family: Canela;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 10%;
     padding-right: 5%;
   }
@@ -91,7 +91,7 @@ body {
   .secondrow {
     font-size: 40px;
     font-family: Canela-Med;
-    margin-top: 8%;
+    margin-top: 5%;
     margin-left: 6%;
     padding-right: 5%;
   }
@@ -105,14 +105,14 @@ body {
   .chat-line {
     margin-top: 3%;
     font-size: 40px;
+    padding-bottom: 10%;
   }
 
   .wrapper {
     display: flex;
-    margin-top: -90%;
     position: absolute;
     margin-left: 15%;
-    height: 100px;
+    height: 8%;
   }
 
   .name {
@@ -261,10 +261,10 @@ body {
     --duration: 30s;
     --gap: var(--space);
     background-color: rgba(27, 50, 151, 0.266);
-    width: calc(120vw - 16rem);
+    width: 120%;
+    margin-left: -10%;
     display: flex;
     overflow: hidden;
-    margin-left: -5%;
     margin-top: 10%;
     --space: 5rem;
   }
@@ -277,16 +277,11 @@ body {
     text-transform: uppercase;
     align-items: center;
     justify-content: space-around;
-    min-width: 100%;
     animation: scroll var(--duration) linear infinite;
   }
   
   .marquee__group p {
     margin: 0.2px 0;
-  }
-  
-  .marquee--borders {
-    padding-block: 0;
   }
   
   @keyframes scroll {
