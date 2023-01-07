@@ -105,12 +105,12 @@ body {
 
   .city-outline {
     margin-top: 10%;
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
   }
   @keyframes mover {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-20%); }
+    100% { transform: translateY(20%); }
   }
 
   .position {
