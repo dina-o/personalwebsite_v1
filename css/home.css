@@ -302,7 +302,7 @@ body {
   }
 
   .email:hover::before {
-    content: "email dina.oorucevic@gmail.com!";
+    content: "email dina[dot]oorucevic[at]gmail[dot]com!";
     text-decoration: none;
     font-family: Canela;
     color: rgba(27, 50, 151, 0.596);
