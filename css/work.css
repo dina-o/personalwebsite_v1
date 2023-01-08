@@ -115,11 +115,13 @@ body {
 
   .position {
     font-family: Canela-Thin;
+    font-size: 3vw;
   }
 
   .position:hover {
     font-family: Canela;
     color:rgb(224, 109, 80);
+    font-size: 3vw;
   }
 
   .reveal{

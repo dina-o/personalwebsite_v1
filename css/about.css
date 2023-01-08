@@ -101,7 +101,7 @@ body {
     }
 
   .connect img {
-    width: 3rem;
+    width: 3vw;
     opacity: 0.8;
     padding-right: 40%;
   }
@@ -201,6 +201,7 @@ body {
     content: "novel!";
     color: rgb(31, 30, 30);
     font-weight: 600;
+    font-size: 2vw;
     border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%; 
     border: 2px solid rgba(242, 132, 29, 0);
   }
@@ -208,7 +209,7 @@ body {
   .book:hover::before{
     content:"Klara and the Sun";
     font-weight: 600;
-    font-size: 120%;
+    font-size: 2.5vw;
     border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%; 
     border: 2px solid #5a1a1173;
     transition: 0.5s;
@@ -218,6 +219,7 @@ body {
     content: "film!";
     color: rgb(31, 30, 30);
     font-weight: 600;
+    font-size: 2vw;
     border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%; 
     border: 2px solid rgba(242, 132, 29, 0);
   }
@@ -225,7 +227,7 @@ body {
   .movie:hover::before{
     content:"Force Majeure";
     font-weight: 600;
-    font-size: 120%;
+    font-size: 2.5vw;
     border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%; 
     border: 2px solid rgba(14, 34, 108, 0.39);
     transition: 0.5s;
@@ -233,6 +235,7 @@ body {
 
   .superpower::before {
     content: "super power!";
+    font-size: 2vw;
     color: rgb(31, 30, 30);
     font-weight: 600;
     border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%; 
@@ -242,7 +245,7 @@ body {
   .superpower:hover::before{
     content:"all git commands memorized";
     font-weight: 600;
-    font-size: 80%;
+    font-size: 1.5vw;
     border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%; 
     border: 2px solid rgba(31, 31, 32, 0.334);
     transition: 0.5s;
