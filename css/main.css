@@ -1,3 +1,5 @@
+@media (min-height: 449px) and (min-width: 1031px) {
+
 .page-transition {
     animation: transitionIn 1.5s;
     padding-bottom: 10%;
@@ -13,3 +15,22 @@
         transform: translateY(0); 
     }
 }
+
+.responsive {
+  display: none;
+}
+
+}
+
+@media (max-height: 448px) or (max-width: 1031px) {
+    #base-container {
+      display: none;
+    }
+    .responsive {
+      font-family: Canela;
+      font-size: 5vw;
+      text-align: center;
+      margin-top: 20%;
+    }
+  
+  }
