@@ -5,6 +5,6 @@ Check out my first iteration of my personal website now at: [dinaorucevic.design
 
 Built with js, html, css and lots of love ^_^
 
-**Thanks for stopping by!**
+**Thanks for stopping by!** <br> <br>
 
-###### *note: mobile version coming soon...*
+*note: mobile version coming soon...*
