@@ -102,6 +102,11 @@ body {
     font-size: 30px;
     margin-left: 10%;
     margin-top: 2%;
+    cursor: auto;
+  }
+
+  .thirdrow {
+    cursor: auto;
   }
 
   .chat-line {
