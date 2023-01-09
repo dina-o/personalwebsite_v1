@@ -389,7 +389,7 @@ body {
   font-weight: 50;
 }
 
-/* @media (max-height: 448px) or (max-width: 1031px) {
+@media (max-height: 448px) or (max-width: 1031px) {
   #base-container {
     display: none;
   }
@@ -400,4 +400,4 @@ body {
     margin-top: 20%;
   }
 
-} */
+}
