@@ -1,4 +1,4 @@
-@media (min-height: 449px) and (min-width: 1031px) {
+/* @media (min-height: 449px) and (min-width: 1031px) { */
 
 body {
     margin: 0;
@@ -369,7 +369,7 @@ body {
   .responsive {
     display: none;
   }
-}
+/* } */
 
   @font-face {
     font-family: 'Canela';
