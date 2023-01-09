@@ -1,4 +1,4 @@
-/* @media (min-height: 449px) and (min-width: 1031px) { */
+@media (min-height: 449px) and (min-width: 1031px) {
 
 body {
     margin: 0;
@@ -369,7 +369,7 @@ body {
   .responsive {
     display: none;
   }
-/* } */
+}
 
   @font-face {
     font-family: 'Canela';
@@ -390,14 +390,11 @@ body {
 }
 
 @media (max-height: 448px) or (max-width: 1031px) {
-  #base-container {
-    display: none;
-  }
-  .responsive {
+  .name {
+    font-size: 20px;
     font-family: Canela;
-    font-size: 5vw;
-    text-align: center;
-    margin-top: 20%;
+    margin-left: -30%;
+    animation: spin_greeting 22s infinite;
   }
 
 }
